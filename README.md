@@ -28,8 +28,8 @@
 ```
 docker run -d --name mysql_instance -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=test_db -v mysql_volume:/var/lib/mysql -p 3306:3306 mysql:8
 ```
-![sql-status]
-![count-price-300]
+![sql-status](https://github.com/v1us1885/hw-06-db-03-mysql/blob/main/sql-status.png)
+![count-price-300](https://github.com/v1us1885/hw-06-db-03-mysql/blob/main/count-price-300.png)
 
 
 
@@ -58,7 +58,7 @@ ALTER USER 'test'@'%' ATTRIBUTE '{"Last Name": "Pretty", "First Name": "James"}'
 GRANT SELECT ON test_db.* TO 'test'@'%';
 FLUSH PRIVILEGES;
 ```
-![information-user]
+![information-user](https://github.com/v1us1885/hw-06-db-03-mysql/blob/main/information-user.png)
 
 
 ## Задача 3
@@ -73,8 +73,8 @@ FLUSH PRIVILEGES;
 - на `InnoDB`.
 
 ## Решение 3
-![engine-db]
-![alter-engine]
+![engine-db](https://github.com/v1us1885/hw-06-db-03-mysql/blob/main/engine-db.png)
+![alter-engine](https://github.com/v1us1885/hw-06-db-03-mysql/blob/main/alter-engine.png)
 
 
 ## Задача 4 
